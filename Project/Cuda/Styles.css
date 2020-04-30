@@ -1,7 +1,69 @@
-﻿.container {
+﻿@media screen and ( min-width: 1141px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and ( max-width: 1140px) {
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and ( max-width: 935px) {
+    .footer-links {
+        max-width: 636px !important;
+        text-align: center;
+    }
+
+        .footer-links ul {
+            padding-left: 0 !important;
+        }
+}
+
+@media screen and ( max-width: 857px) {
+    .blurb h3 {
+        font-size: 22px !important;
+    }
+}
+
+
+@media screen and ( max-width: 793px) {
+    .blurb {
+        width: 46.66% !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and ( max-width: 479px) {
+    #main-heading h1 {
+        font-size: 35px !important;
+    }
+}
+
+@media screen and ( max-width: 404px) {
+    #main-heading h1 {
+        font-size: 25px !important;
+    }
+
+    .blurb {
+        width: 90% !important;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .big-button {
+        font-size: 15px !important;
+    }
+}
+
+
+.container {
     max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 body {
@@ -186,7 +248,7 @@ input[type="submit"] {
 .footer-links ul li {
     display: inline-block;
     padding: 10px 20px;
-    text-align:center;
+    text-align: center;
 }
 
     .footer-links ul li a {
@@ -197,7 +259,7 @@ input[type="submit"] {
 
 footer {
     background-color: #344b8e;
-    margin-top:60px;
+    margin-top: 60px;
 }
 
 .footer-links {
@@ -208,6 +270,5 @@ footer {
 
     .footer-links ul {
         margin: 0;
-        padding-bottom:25px;
-        padding-top:25px;
+        padding-bottom: 35px,0;
     }
